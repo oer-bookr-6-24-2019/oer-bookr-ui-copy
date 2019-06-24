@@ -61,6 +61,24 @@ footer img {
   width: 30px;
   margin-left: 20px;
 }
+.landing-content {
+  background-color: #2A304A;
+}
+.landing-content section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.landing-content section h3 {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+.landing-content section p {
+  border: 1px solid #ffffff;
+  width: 25%;
+  margin: 20px;
+}
 body {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   width: 1080px;

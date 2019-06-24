@@ -1,5 +1,13 @@
 ***OER Bookr Build Week Project***
 
+**Most recent updates**
+-PR submitted @ 7EST for standup time
+    -Currently working to add items in the landing content
+    -The plan is to have two rows of three items in their own containers with links to browse each category
+    -The next section will be the call to action
+    -I may add a 50-50 imgage or color section above to break up the space and incorporate other colors 
+
+
 **Rubric**
 
 MVP and Stretch:
@@ -29,3 +37,4 @@ MVP Features Breakdown:
 [ ] Stretch Goal: A link to each book will take me to a site where I can download/access the open textbook subject. Each book will have a 5 star rating system. As a user I can review each book.
 
 [ ] Stretch Goal: A link to each book will take me to a site where I can download/access the open textbook."
+
