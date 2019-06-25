@@ -68,51 +68,60 @@ header .registerBtn {
 .teamContent .bookStack {
   margin: auto;
 }
-.teamContent .bookStack #arshakBook {
+.teamContent .bookStack .teamMember .member-open {
+  height: 400px;
+}
+.teamContent .bookStack .teamMember #arshakBook {
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: 2.5%;
   padding-top: 0px;
   padding-bottom: 0px;
-  width: 90%;
+  width: 88%;
   height: auto;
 }
-.teamContent .bookStack #joseBook {
+.teamContent .bookStack .teamMember #joseBook {
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: 6.5%;
   padding-top: 0px;
   padding-bottom: 0px;
-  width: 90%;
+  width: 88%;
   height: auto;
 }
-.teamContent .bookStack #jordanBook {
+.teamContent .bookStack .teamMember #jordanBook {
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: 1%;
   padding-top: 0px;
   padding-bottom: 0px;
-  width: 90%;
+  width: 96%;
   height: auto;
 }
-.teamContent .bookStack #spencerBook {
+.teamContent .bookStack .teamMember #spencerBook {
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: 5%;
   padding-top: 0px;
   padding-bottom: 0px;
   width: 95%;
   height: auto;
 }
-.teamContent .bookStack #alexBook {
+.teamContent .bookStack .teamMember #alexBook {
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: 5.5%;
   padding-top: 0px;
   padding-bottom: 0px;
-  width: 90%;
+  width: 91%;
   height: auto;
 }
-.teamContent .bookStack #bradBook {
+.teamContent .bookStack .teamMember #bradBook {
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: 8%;
   padding-top: 0px;
   padding-bottom: 0px;
-  width: 90%;
+  width: 92%;
   height: auto;
 }
