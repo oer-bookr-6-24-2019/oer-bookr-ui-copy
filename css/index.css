@@ -1,0 +1,123 @@
+nav {
+  background: white;
+  width: 100%;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
+}
+nav a {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid black;
+  text-decoration: none;
+  text-align: center;
+}
+.debug {
+  border: 2px solid red;
+}
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+header {
+  background-image: url(/img/eli-francis-_M-DrbiNFa4-unsplash.jpg);
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+header h1 {
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+}
+header h2 {
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+header p {
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+footer {
+  background-color: #ffffff;
+  text-decoration: underline;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  margin-left: 120px;
+}
+footer img {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+}
+.landing-content {
+  background-color: #2A304A;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.landing-content h3 {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+.landing-content .science {
+  width: 40%;
+  height: 200px;
+  border: 1px solid #ffffff;
+  margin: 20px;
+  padding: 20px;
+}
+.landing-content .science h4 {
+  text-align: center;
+}
+.landing-content .technology {
+  width: 40%;
+  height: 200px;
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  margin: 20px;
+  padding: 20px;
+}
+.landing-content .technology h4 {
+  text-align: center;
+}
+.landing-content .engineering {
+  width: 40%;
+  height: 200px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+}
+.landing-content .engineering h4 {
+  text-align: center;
+}
+.landing-content .mathematics {
+  width: 40%;
+  height: 200px;
+  border: 1px solid #ffffff;
+  margin: 20px;
+  padding: 20px;
+}
+.landing-content .mathematics h4 {
+  text-align: center;
+}
+body {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  width: 1080px;
+  background: #242943;
+  margin: 0 auto;
+}
