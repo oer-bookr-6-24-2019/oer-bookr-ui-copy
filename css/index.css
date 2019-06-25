@@ -63,24 +63,61 @@ footer img {
 }
 .landing-content {
   background-color: #2A304A;
-}
-.landing-content section {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: center;
 }
-.landing-content section h3 {
+.landing-content h3 {
   width: 100%;
   text-align: center;
   color: #ffffff;
 }
-.landing-content section p {
+.landing-content .science {
+  width: 40%;
+  height: 200px;
   border: 1px solid #ffffff;
-  width: 25%;
   margin: 20px;
+  padding: 20px;
+}
+.landing-content .science h4 {
+  text-align: center;
+}
+.landing-content .technology {
+  width: 40%;
+  height: 200px;
+  border: 1px solid #ffffff;
+  background: #ffffff;
+  margin: 20px;
+  padding: 20px;
+}
+.landing-content .technology h4 {
+  text-align: center;
+}
+.landing-content .engineering {
+  width: 40%;
+  height: 200px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+}
+.landing-content .engineering h4 {
+  text-align: center;
+}
+.landing-content .mathematics {
+  width: 40%;
+  height: 200px;
+  border: 1px solid #ffffff;
+  margin: 20px;
+  padding: 20px;
+}
+.landing-content .mathematics h4 {
+  text-align: center;
 }
 body {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   width: 1080px;
   background: #242943;
+  margin: 0 auto;
 }
