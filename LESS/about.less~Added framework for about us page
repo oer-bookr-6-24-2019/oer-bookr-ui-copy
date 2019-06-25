@@ -1,0 +1,15 @@
+.individual-left{
+  width: 50%;
+  height: 150px;
+  background: rgb(255, 249, 243);
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
+
+.individual-right{
+  width: 50%;
+  height: 150px;
+  background: rgb(255, 249, 243);
+  margin-bottom: 20px;
+  margin-left: 30%;
+}
