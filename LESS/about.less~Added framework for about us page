@@ -1,15 +1,62 @@
-.individual-left{
-  width: 50%;
-  height: 150px;
-  background: rgb(255, 249, 243);
-  margin-bottom: 20px;
-  margin-left: 20%;
-}
+.teamContent{
+  margin: auto;
+  width: 60%;
 
-.individual-right{
-  width: 50%;
-  height: 150px;
-  background: rgb(255, 249, 243);
-  margin-bottom: 20px;
-  margin-left: 30%;
+  .bookStack{
+    margin: auto;
+    #arshakBook{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      //display: none;
+      width: 90%;
+      height: auto;
+    }
+
+    #joseBook{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      width: 90%;
+      height: auto;
+    }
+
+    #jordanBook{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      width:90%;
+      height: auto;
+    }
+
+    #spencerBook{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      width: 95%;
+      height: auto;
+    }
+
+    #alexBook{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      width: 90%;
+      height: auto;
+    }
+
+    #bradBook{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      width: 90%;
+      height: auto;
+    }
+  }
 }
