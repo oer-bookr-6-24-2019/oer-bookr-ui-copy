@@ -2,29 +2,48 @@
   margin: auto;
   width: 60%;
 
+  @media only screen and (max-width: 800px){
+    width: 90%;
+  }
+
   .bookStack{
     margin: auto;
-    .teamMember{
-      
+
+    .teamMemberLeft{
+
+      .about{
+        display:none;
+      }
+
       .member-open {
-        height: 400px;
+        height: 200px;
+        width: 75%;
+        margin: auto;
+        background: linen;
+        border: 2px solid black;
+        display: flex;
+        justify-content: space-around;
+
+        img{
+          width: 30%;
+          height: auto;
+          padding: 2.5%;
+        }
+
+        @media only screen and (max-width: 500px){
+          flex-direction: column;
+          img {
+            width: 50%;
+            height: auto;
+            margin: auto;
+          }
+        }
       }
 
       #arshakBook{
         margin-top: 0px;
         margin-bottom: 0px;
         margin-left: 2.5%;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        //display: none;
-        width: 88%;
-        height: auto;
-      }
-
-      #joseBook{
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 6.5%;
         padding-top: 0px;
         padding-bottom: 0px;
         width: 88%;
@@ -41,16 +60,6 @@
         height: auto;
       }
 
-      #spencerBook{
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 5%;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        width: 95%;
-        height: auto;
-      }
-
       #alexBook{
         margin-top: 0px;
         margin-bottom: 0px;
@@ -60,16 +69,69 @@
         width: 91%;
         height: auto;
       }
+  }
 
-      #bradBook{
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 8%;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        width: 92%;
+  .teamMemberRight{
+
+    .about{
+      display:none;
+    }
+
+    .member-open {
+      height: 200px;
+      width: 75%;
+      margin: auto;
+      background: linen;
+      border: 2px solid black;
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+
+      img{
+        width: 30%;
         height: auto;
+        padding: 2.5%;
       }
+
+      @media only screen and (max-width: 500px){
+        flex-direction: column;
+        img {
+          width: 50%;
+          height: auto;
+          margin: auto;
+        }
+      }
+    }
+
+    #joseBook{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 6.5%;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      width: 88%;
+      height: auto;
+    }
+
+    #spencerBook{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 5%;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      width: 95%;
+      height: auto;
+    }
+
+    #bradBook{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      margin-left: 8%;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      width: 92%;
+      height: auto;
+    }
   }
-  }
+}
 }
