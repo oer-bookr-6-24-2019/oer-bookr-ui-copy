@@ -1,0 +1,60 @@
+header {
+    background-image: url(/img/eli-francis-_M-DrbiNFa4-unsplash.jpg);
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    h1 {
+        text-align: center;
+        width: 100%;
+    }
+    .search-div {
+        margin: 0 auto;
+        display: flex;
+        height: 40px;
+        .header-search {
+            width: 260px;
+            padding: 10px 16px;
+            font-size: 16px;
+            border-radius: 6px;
+        }
+        .btn-lg {
+            width: 60px;
+            margin-left: 5px;
+            font-size: 16px;
+            border-radius: 6px;
+            background-color: #7BB398;
+        }
+    }
+    h3 {
+        color: #ffffff;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+    p {
+        color: #ffffff;
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+    }
+    // @media (max-width: 500px) {
+    //     // display: none;
+    //     margin: 140px auto 0;
+    // }
+}
+@media (max-width: 500px) {
+    header {
+    height: 400px;
+    width: 100%;
+    margin: 230px auto 0;
+    }
+}
+
+.card {
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.card:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

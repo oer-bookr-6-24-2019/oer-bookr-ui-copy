@@ -1,0 +1,337 @@
+nav {
+  background: white;
+  width: 95%;
+  max-width: 1080px;
+  height: 60px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 15px;
+  position: fixed;
+  top: 0;
+}
+nav img {
+  width: 90px;
+}
+nav a {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 1px solid black;
+  text-decoration: none;
+  text-align: center;
+}
+nav #nav-first-item {
+  border-left: none;
+}
+@media (max-width: 500px) {
+  nav {
+    width: 100%;
+    height: 230px;
+    position: absolute;
+  }
+  nav a {
+    display: block;
+    border-top: 1px solid black;
+    border-left: none;
+    margin: 0;
+    padding: 10px 0 10px 0;
+  }
+  img {
+    text-align: center;
+  }
+}
+.debug {
+  border: 2px solid red;
+}
+.flex-start {
+  display: flex;
+  justify-content: flex-start;
+}
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+header {
+  background-image: url(/img/eli-francis-_M-DrbiNFa4-unsplash.jpg);
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+header h1 {
+  text-align: center;
+  width: 100%;
+}
+header .search-div {
+  margin: 0 auto;
+  display: flex;
+  height: 40px;
+}
+header .search-div .header-search {
+  width: 260px;
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+}
+header .search-div .btn-lg {
+  width: 60px;
+  margin-left: 5px;
+  font-size: 16px;
+  border-radius: 6px;
+  background-color: #7BB398;
+}
+header h3 {
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+header p {
+  color: #ffffff;
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+@media (max-width: 500px) {
+  header {
+    height: 400px;
+    width: 100%;
+    margin: 230px auto 0;
+  }
+}
+.card {
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+footer {
+  background-color: #ffffff;
+  text-decoration: underline;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  margin-left: 120px;
+}
+footer img {
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+}
+.landing-content {
+  background-color: #2A304A;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.landing-content h2 {
+  width: 100%;
+  text-align: center;
+}
+.landing-content .science {
+  width: 40%;
+  height: 300px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  margin: 20px;
+  padding: 20px;
+}
+.landing-content .science h4 {
+  text-align: center;
+}
+.landing-content .technology {
+  width: 40%;
+  height: 300px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  background: #ffffff;
+  margin: 20px;
+  padding: 20px;
+}
+.landing-content .technology h4 {
+  text-align: center;
+}
+.landing-content .engineering {
+  width: 40%;
+  height: 300px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  background-color: #ffffff;
+  margin: 20px;
+  padding: 20px;
+}
+.landing-content .engineering h4 {
+  text-align: center;
+}
+.landing-content .mathematics {
+  width: 40%;
+  height: 300px;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  margin: 20px;
+  padding: 20px;
+}
+.landing-content .mathematics h4 {
+  text-align: center;
+}
+.card {
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.cta {
+  height: 500px;
+  background-image: url("/img/nick-hillier-QsBTYwxjzUU-unsplash.jpg");
+  background-size: 100% 100%;
+}
+.cta #cta-h2 {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 2.8rem;
+}
+.cta .button-div {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.cta .btn-lg {
+  width: 160px;
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 6px;
+  background-color: #7BB398;
+}
+.cta p {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.card {
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.team-content {
+  background-color: #2A304A;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.team-content h1 {
+  width: 100%;
+  height: 20px;
+  color: #ffffff;
+}
+.team-content p {
+  color: #ffffff;
+  height: 40px;
+  border-bottom: 1px solid white;
+  margin-bottom: 100px;
+}
+.team-content .team-images {
+  filter: grayscale(100%);
+  height: 250px;
+  width: 40%;
+  margin: 20px;
+}
+.features-content {
+  background-color: #2A304A;
+  display: flex;
+}
+.features-content h2 {
+  text-align: center;
+}
+.features-content .features {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 34px;
+}
+.features-content .features h4 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+.features-content .features p {
+  margin: 10px;
+  height: 100px;
+  color: #ffffff;
+}
+.features-content .features img {
+  margin: 0 auto 20px;
+  width: 200px;
+  height: 200px;
+}
+.features-content .second-feature {
+  border-left: 1px solid #242943;
+  border-right: 1px solid #242943;
+}
+@media (max-width: 500px) {
+  .features-content {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .features-content .features {
+    width: 100%;
+    height: 300px;
+    padding-left: 0;
+  }
+  .features-content .features p {
+    margin: 15px;
+  }
+  .features-content .features img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+}
+.card {
+  border-radius: 2px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+body {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  max-width: 1080px;
+  width: 95%;
+  background: #242943;
+  margin: 60px auto 0;
+}
+@media (max-width: 500px) {
+}
+body h1 {
+  color: #ffffff;
+  font-size: 2.8rem;
+}
+body h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+}
+body h3 {
+  color: #ffffff;
+}
+@media (max-width: 500px) {
+  body {
+    width: 100%;
+    margin: 140px auto 0;
+  }
+}
