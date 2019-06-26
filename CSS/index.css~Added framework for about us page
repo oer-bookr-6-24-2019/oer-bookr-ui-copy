@@ -65,13 +65,42 @@ header .registerBtn {
   margin: auto;
   width: 60%;
 }
+@media only screen and (max-width: 800px) {
+  .teamContent {
+    width: 90%;
+  }
+}
 .teamContent .bookStack {
   margin: auto;
 }
-.teamContent .bookStack .teamMember .member-open {
-  height: 400px;
+.teamContent .bookStack .teamMemberLeft .about {
+  display: none;
 }
-.teamContent .bookStack .teamMember #arshakBook {
+.teamContent .bookStack .teamMemberLeft .member-open {
+  height: 200px;
+  width: 75%;
+  margin: auto;
+  background: linen;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+}
+.teamContent .bookStack .teamMemberLeft .member-open img {
+  width: 30%;
+  height: auto;
+  padding: 2.5%;
+}
+@media only screen and (max-width: 500px) {
+  .teamContent .bookStack .teamMemberLeft .member-open {
+    flex-direction: column;
+  }
+  .teamContent .bookStack .teamMemberLeft .member-open img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+  }
+}
+.teamContent .bookStack .teamMemberLeft #arshakBook {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 2.5%;
@@ -80,16 +109,7 @@ header .registerBtn {
   width: 88%;
   height: auto;
 }
-.teamContent .bookStack .teamMember #joseBook {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 6.5%;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  width: 88%;
-  height: auto;
-}
-.teamContent .bookStack .teamMember #jordanBook {
+.teamContent .bookStack .teamMemberLeft #jordanBook {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 1%;
@@ -98,16 +118,7 @@ header .registerBtn {
   width: 96%;
   height: auto;
 }
-.teamContent .bookStack .teamMember #spencerBook {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 5%;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  width: 95%;
-  height: auto;
-}
-.teamContent .bookStack .teamMember #alexBook {
+.teamContent .bookStack .teamMemberLeft #alexBook {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 5.5%;
@@ -116,7 +127,53 @@ header .registerBtn {
   width: 91%;
   height: auto;
 }
-.teamContent .bookStack .teamMember #bradBook {
+.teamContent .bookStack .teamMemberRight .about {
+  display: none;
+}
+.teamContent .bookStack .teamMemberRight .member-open {
+  height: 200px;
+  width: 75%;
+  margin: auto;
+  background: linen;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+.teamContent .bookStack .teamMemberRight .member-open img {
+  width: 30%;
+  height: auto;
+  padding: 2.5%;
+}
+@media only screen and (max-width: 500px) {
+  .teamContent .bookStack .teamMemberRight .member-open {
+    flex-direction: column;
+  }
+  .teamContent .bookStack .teamMemberRight .member-open img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+  }
+}
+.teamContent .bookStack .teamMemberRight #joseBook {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 6.5%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 88%;
+  height: auto;
+}
+.teamContent .bookStack .teamMemberRight #spencerBook {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 5%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  width: 95%;
+  height: auto;
+}
+.teamContent .bookStack .teamMemberRight #bradBook {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 8%;
