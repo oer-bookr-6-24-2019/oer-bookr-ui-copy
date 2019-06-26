@@ -337,7 +337,7 @@ body h3 {
 }
 .teamContent {
   margin: auto;
-  width: 60%;
+  width: 100%;
 }
 @media only screen and (max-width: 800px) {
   .teamContent {
@@ -362,8 +362,11 @@ body h3 {
   height: 200px;
   width: 75%;
   margin: auto;
-  background: linen;
-  border: 2px solid black;
+  background: #2A304A;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  color: white;
+  border-radius: 2px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   display: flex;
   justify-content: space-around;
 }
@@ -438,11 +441,14 @@ body h3 {
   height: 200px;
   width: 75%;
   margin: auto;
-  background: linen;
-  border: 2px solid black;
+  background: #2A304A;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  color: white;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
+  border-radius: 2px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .teamContent .bookStack .teamMemberRight .member-open img {
   width: 30%;
