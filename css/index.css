@@ -31,10 +31,8 @@ header {
   border: 1px solid white;
 }
 header h1 {
-  color: #ffffff;
   text-align: center;
   width: 100%;
-  font-size: 2.8rem;
 }
 header .search-div {
   margin: 0 auto;
@@ -54,7 +52,7 @@ header .search-div .btn-lg {
   border-radius: 6px;
   background-color: #7BB398;
 }
-header h2 {
+header h3 {
   color: #ffffff;
   text-align: center;
   margin: 0 auto;
@@ -88,15 +86,13 @@ footer img {
   flex-direction: row;
   justify-content: center;
 }
-.landing-content h3 {
+.landing-content h2 {
   width: 100%;
   text-align: center;
-  color: #ffffff;
-  font-size: 2rem;
 }
 .landing-content .science {
   width: 40%;
-  height: 200px;
+  height: 300px;
   color: #ffffff;
   border: 1px solid #ffffff;
   margin: 20px;
@@ -107,7 +103,7 @@ footer img {
 }
 .landing-content .technology {
   width: 40%;
-  height: 200px;
+  height: 300px;
   border: 1px solid #ffffff;
   background: #ffffff;
   margin: 20px;
@@ -118,7 +114,7 @@ footer img {
 }
 .landing-content .engineering {
   width: 40%;
-  height: 200px;
+  height: 300px;
   border: 1px solid #ffffff;
   background-color: #ffffff;
   margin: 20px;
@@ -129,7 +125,7 @@ footer img {
 }
 .landing-content .mathematics {
   width: 40%;
-  height: 200px;
+  height: 300px;
   color: #ffffff;
   border: 1px solid #ffffff;
   margin: 20px;
@@ -144,7 +140,7 @@ footer img {
   background-image: url("/img/nick-hillier-QsBTYwxjzUU-unsplash.jpg");
   background-size: 100% 100%;
 }
-.cta h3 {
+.cta #cta-h2 {
   color: #ffffff;
   text-align: center;
   margin-top: 40px;
@@ -193,9 +189,55 @@ footer img {
   width: 40%;
   margin: 20px;
 }
+.features-content {
+  background-color: #2A304A;
+  display: flex;
+}
+.features-content h2 {
+  text-align: center;
+}
+.features-content .features {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-left: 34px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  margin: 0 auto;
+}
+.features-content .features h4 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+.features-content .features p {
+  margin: 10px;
+  height: 100px;
+}
+.features-content .features img {
+  margin: 0 auto 20px;
+  width: 200px;
+  height: 200px;
+}
+.features-content .features .first-feature {
+  color: red;
+}
 body {
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   width: 1080px;
   background: #242943;
   margin: 0 auto;
+}
+body h1 {
+  color: #ffffff;
+  font-size: 2.8rem;
+}
+body h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+}
+body h3 {
+  color: #ffffff;
 }
