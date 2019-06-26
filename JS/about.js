@@ -25,7 +25,6 @@ class AboutRight {
 
   expandPerson() {
     this.aboutBlock.classList.toggle('member-open');
-    console.log('clickright');
   }
 }
 
