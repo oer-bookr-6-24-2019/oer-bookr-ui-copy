@@ -455,6 +455,11 @@ body h3 {
   padding: 0px;
   position: relative;
 }
+@media only screen and (max-width: 500px) {
+  .teamContent .bookStack .teamMemberLeft .member-open .aboutStatement .socialLinks {
+    margin-top: 35%;
+  }
+}
 .teamContent .bookStack .teamMemberLeft #arshakBook {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -534,6 +539,11 @@ body h3 {
   margin-left: auto;
   padding: 0px;
   position: relative;
+}
+@media only screen and (max-width: 500px) {
+  .teamContent .bookStack .teamMemberRight .member-open .aboutStatement .socialLinks {
+    margin-top: 30%;
+  }
 }
 .teamContent .bookStack .teamMemberRight #joseBook {
   margin-top: 0px;
