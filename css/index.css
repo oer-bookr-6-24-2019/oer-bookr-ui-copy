@@ -1,28 +1,36 @@
 nav {
-  background: white;
+  background: #ffffff;
   width: 95%;
   max-width: 1080px;
   height: 60px;
-  margin: 0 auto;
-  text-align: center;
   padding-top: 15px;
   position: fixed;
   top: 0;
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-nav img {
-  width: 90px;
-  justify-content: flex-start;
+nav .nav-logo {
+  text-align: center;
+}
+nav .nav-logo img {
+  margin-left: 30px;
+  width: 120px;
+}
+nav .nav-logo img:hover {
+  cursor: pointer;
+}
+nav .nav-links {
+  height: 40px;
+  text-align: center;
+  margin-right: 30px;
 }
 nav .nav-links a {
   color: black;
   margin-left: 20px;
-  padding-left: 20px;
   border-left: 1px solid black;
+  padding-left: 20px;
   text-decoration: none;
-  text-align: center;
-  flex-direction: row;
-  align-items: flex-end;
 }
 nav .nav-links a:hover {
   color: #7BB398;
@@ -36,21 +44,31 @@ nav #nav-last-item {
   padding: 10px 20px;
   background-color: #7BC0D7;
 }
+nav #nav-last-item:hover {
+  background-color: #65AFCA;
+  color: #ffffff;
+}
 @media (max-width: 500px) {
   nav {
+    display: block;
     width: 100%;
     height: 190px;
     position: absolute;
+    padding-top: 0;
   }
-  nav a {
+  nav .nav-logo img {
+    width: 50%;
+    margin: 0 auto;
+  }
+  nav .nav-links {
+    margin: 0;
+  }
+  nav .nav-links a {
     display: block;
     border-top: 1px solid black;
     border-left: none;
     margin: 0;
     padding: 10px 0 10px 0;
-  }
-  img {
-    text-align: center;
   }
 }
 .debug {
@@ -83,12 +101,10 @@ header .header-button {
   font-size: 16px;
   border-radius: 6px;
 }
-header .btn-lg {
-  width: 60px;
-  margin-left: 5px;
-  font-size: 16px;
-  border-radius: 6px;
-  background-color: #7BB398;
+header .header-button:hover {
+  cursor: pointer;
+  background-color: rgba(123, 179, 152, 0.753);
+  color: #ffffff;
 }
 header h3 {
   color: #ffffff;
@@ -106,7 +122,7 @@ header p {
   header {
     height: 390px;
     width: 100%;
-    margin: 200px auto 0;
+    margin: 221px auto 0;
   }
 }
 .card {
@@ -124,13 +140,10 @@ footer {
   display: flex;
   justify-content: center;
 }
-footer p {
-  margin-left: 120px;
-}
 footer img {
   height: 30px;
   width: 30px;
-  margin-left: 20px;
+  margin: 10px 0 0 20px;
 }
 .landing-content {
   background-color: #2A304A;
@@ -233,6 +246,11 @@ footer img {
   font-size: 18px;
   border-radius: 6px;
   background-color: #7BB398;
+}
+.cta .btn-lg:hover {
+  cursor: pointer;
+  background-color: rgba(123, 179, 152, 0.753);
+  color: #ffffff;
 }
 .cta p {
   width: 80%;
