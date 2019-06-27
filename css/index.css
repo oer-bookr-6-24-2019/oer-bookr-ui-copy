@@ -344,6 +344,11 @@ body h3 {
     width: 90%;
   }
 }
+@media only screen and (max-width: 500px) {
+  .teamContent {
+    margin-top: 175px;
+  }
+}
 .teamContent .bookStack {
   margin: auto;
 }
@@ -380,24 +385,23 @@ body h3 {
     display: block;
     height: 400px;
   }
-  .teamContent .bookStack .teamMemberLeft .member-open .headshot {
-    width: 75%;
-    position: top;
-    margin-left: 12.5%;
-    margin-top: 5%;
-    padding: 0;
-  }
-  .teamContent .bookStack .teamMemberLeft .member-open .aboutStatement {
-    height: 40%;
-    margin: 0px 10px 0px 10px;
-  }
-  .teamContent .bookStack .teamMemberLeft .member-open .aboutStatement .socialLinks {
-    height: auto;
-    margin-left: auto;
-    padding: 0px;
-    position: fixed;
-    position: bottom;
-  }
+}
+.teamContent .bookStack .teamMemberLeft .member-open .headshot {
+  width: 75%;
+  position: top;
+  margin-left: 12.5%;
+  margin-top: 5%;
+  padding: 0;
+}
+.teamContent .bookStack .teamMemberLeft .member-open .aboutStatement {
+  height: 40%;
+  margin: 0px 10px 0px 10px;
+}
+.teamContent .bookStack .teamMemberLeft .member-open .aboutStatement .socialLinks {
+  height: auto;
+  margin-left: auto;
+  padding: 0px;
+  position: relative;
 }
 .teamContent .bookStack .teamMemberLeft #arshakBook {
   margin-top: 0px;
@@ -512,4 +516,9 @@ body h3 {
 .fa-twitter {
   background: #55ACEE;
   color: white;
+}
+@media only screen and (max-width: 500px) {
+  .navMobile {
+    height: 150px;
+  }
 }

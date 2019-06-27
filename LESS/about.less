@@ -6,6 +6,10 @@
     width: 90%;
   }
 
+  @media only screen and (max-width: 500px){
+    margin-top: 175px;
+  }
+
   .bookStack{
     margin: auto;
 
@@ -44,26 +48,35 @@
         @media only screen and (max-width: 500px){
           display: block;
           height: 400px;
-          .headshot {
-            width: 75%;
-            position: top;
-            margin-left: 12.5%;
-            margin-top: 5%;
-            padding: 0;
-          }
-          .aboutStatement{
-            height: 40%;
-            margin: 0px 10px 0px 10px;
-            .socialLinks{
-              height: auto;
-              margin-left: auto;
-              padding: 0px;
-              position: fixed;
-              position: bottom;
+        }
+
+        .headshot {
+          width: 75%;
+          position: top;
+          margin-left: 12.5%;
+          margin-top: 5%;
+          padding: 0;
+        }
+
+        .aboutStatement{
+          height: 40%;
+          margin: 0px 10px 0px 10px;
+          
+          .socialLinks{
+            height: auto;
+            margin-left: auto;
+            padding: 0px;
+            position: relative;
+
+            @media only screen and (max-width: 500px){
+
             }
           }
         }
       }
+        
+      
+    
 
       #arshakBook{
         margin-top: 0px;
@@ -171,7 +184,6 @@
     }
   }
 }
-
 //social buttons from w3 schools and font awesome library
 .fa {
 display:none;
@@ -196,4 +208,10 @@ color: white;
 .fa-twitter {
 background: #55ACEE;
 color: white;
+}
+
+@media only screen and (max-width: 500px){
+  .navMobile{
+    height: 150px;
+  }
 }
