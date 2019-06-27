@@ -397,7 +397,7 @@ body h3 {
 }
 @media only screen and (max-width: 500px) {
   .teamContent {
-    margin-top: 175px;
+    margin-top: 200px;
   }
 }
 .teamContent .bookStack {
@@ -426,23 +426,24 @@ body h3 {
   display: flex;
   justify-content: space-around;
 }
-.teamContent .bookStack .teamMemberLeft .member-open img {
-  width: 30%;
-  height: auto;
-  padding: 2.5%;
+.teamContent .bookStack .teamMemberLeft .member-open .headshot {
+  width: 40%;
+  margin-left: 2.5%;
+  margin-top: auto;
+  padding: 0;
 }
 @media only screen and (max-width: 500px) {
   .teamContent .bookStack .teamMemberLeft .member-open {
     display: block;
     height: 400px;
   }
-}
-.teamContent .bookStack .teamMemberLeft .member-open .headshot {
-  width: 75%;
-  position: top;
-  margin-left: 12.5%;
-  margin-top: 5%;
-  padding: 0;
+  .teamContent .bookStack .teamMemberLeft .member-open .headshot {
+    width: 75%;
+    position: top;
+    margin-left: 12.5%;
+    margin-top: 5%;
+    padding: 0;
+  }
 }
 .teamContent .bookStack .teamMemberLeft .member-open .aboutStatement {
   height: 40%;
@@ -505,20 +506,34 @@ body h3 {
   border-radius: 2px;
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
-.teamContent .bookStack .teamMemberRight .member-open img {
-  width: 30%;
-  height: auto;
-  padding: 2.5%;
+.teamContent .bookStack .teamMemberRight .member-open .headshot {
+  width: 40%;
+  margin-right: 2.5%;
+  margin-top: auto;
+  padding: 0;
 }
 @media only screen and (max-width: 500px) {
   .teamContent .bookStack .teamMemberRight .member-open {
-    flex-direction: column;
+    display: block;
+    height: 400px;
   }
-  .teamContent .bookStack .teamMemberRight .member-open img {
-    width: 50%;
-    height: auto;
-    margin: auto;
+  .teamContent .bookStack .teamMemberRight .member-open .headshot {
+    width: 75%;
+    position: top;
+    margin-left: 12.5%;
+    margin-top: 5%;
+    padding: 0;
   }
+}
+.teamContent .bookStack .teamMemberRight .member-open .aboutStatement {
+  height: 40%;
+  margin: 0px 10px 0px 10px;
+}
+.teamContent .bookStack .teamMemberRight .member-open .aboutStatement .socialLinks {
+  height: auto;
+  margin-left: auto;
+  padding: 0px;
+  position: relative;
 }
 .teamContent .bookStack .teamMemberRight #joseBook {
   margin-top: 0px;

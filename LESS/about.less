@@ -7,7 +7,7 @@
   }
 
   @media only screen and (max-width: 500px){
-    margin-top: 175px;
+    margin-top: 200px;
   }
 
   .bookStack{
@@ -39,23 +39,24 @@
         display: flex;
         justify-content: space-around;
 
-        img{
-          width: 30%;
-          height: auto;
-          padding: 2.5%;
+        .headshot {
+          width: 40%;
+          margin-left: 2.5%;
+          margin-top: auto;
+          padding: 0;
         }
 
         @media only screen and (max-width: 500px){
           display: block;
           height: 400px;
-        }
 
-        .headshot {
-          width: 75%;
-          position: top;
-          margin-left: 12.5%;
-          margin-top: 5%;
-          padding: 0;
+          .headshot {
+            width: 75%;
+            position: top;
+            margin-left: 12.5%;
+            margin-top: 5%;
+            padding: 0;
+          }
         }
 
         .aboutStatement{
@@ -75,9 +76,6 @@
         }
       }
         
-      
-    
-
       #arshakBook{
         margin-top: 0px;
         margin-bottom: 0px;
@@ -136,18 +134,39 @@
         border-radius: 2px;
         box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 
-        img{
-          width: 30%;
-          height: auto;
-          padding: 2.5%;
+        .headshot {
+          width: 40%;
+          margin-right: 2.5%;
+          margin-top: auto;
+          padding: 0;
         }
 
         @media only screen and (max-width: 500px){
-          flex-direction: column;
-          img {
-            width: 50%;
+          display: block;
+          height: 400px;
+
+          .headshot {
+            width: 75%;
+            position: top;
+            margin-left: 12.5%;
+            margin-top: 5%;
+            padding: 0;
+          }
+        }
+
+        .aboutStatement{
+          height: 40%;
+          margin: 0px 10px 0px 10px;
+
+          .socialLinks{
             height: auto;
-            margin: auto;
+            margin-left: auto;
+            padding: 0px;
+            position: relative;
+
+            @media only screen and (max-width: 500px){
+
+            }
           }
         }
       }
@@ -172,7 +191,7 @@
         height: auto;
       }
 
-      
+
       #bradBook{
         margin-top: 0px;
         margin-bottom: 0px;
